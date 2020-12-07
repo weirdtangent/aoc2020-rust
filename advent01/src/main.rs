@@ -31,7 +31,7 @@ fn part2(nums: &Vec<i64>) {
     for num1 in nums.iter() {
         for num2 in nums.iter() {
             for num3 in nums.iter() {
-                if num1 != num2 && num2 != num3 && num1 + num2 + num3 == 2020 {
+                if num1 != num2 && num1 != num3 && num2 != num3 && num1 + num2 + num3 == 2020 {
                     println!(
                         "{} + {} + {} == 2020, multiplied = {}",
                         num1,
